@@ -1,0 +1,130 @@
+/*
+#141635 blue
+#fb5352 pink
+*/
+
+html,
+body {
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: #141635;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+.index-main-container {
+  background: #fff;
+}
+.index-search-container {
+  background-image: url('../public/background-img1.jpg');
+  width: 100%;
+  height: 650px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+}
+.index-search-content {
+  text-align: center;
+  color: white;
+}
+.index-search-content-text {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 55px;
+}
+/* Menu Style */
+.menu-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #141635;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+.menu-logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.menu-logo-img {
+  width: 50px;
+  height: 50px;
+}
+.menu-logo-text {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  margin: 15px;
+}
+.menu-options-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.menu-options-container a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu-options-container a:hover {
+  color: #fb5352;
+}
+.menu-search-container {
+  width: 35%;
+}
+.menu-search-input {
+  background-color: #141635;
+  color: #fff;
+  width: 100%;
+  border-width: 0px 0px 1px 0px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+}
+
+/* Footer Style */
+.footer-main-container {
+  width: 100%;
+  background: #141635;
+  margin-top: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-contact-view {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact-view-title {
+  color: #fff;
+  margin-top: 25px;
+}
+.footer-contact-view-text {
+  color: #fff;
+}
+.footer-map-view {
+  display: flex;
+  flex-direction: column;
+}
+.footer-map {
+  width: 400px;
+  height: 200px;
+  background: rgb(191, 233, 92);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
