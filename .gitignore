@@ -1,3 +1,6 @@
+# API Key
+utils/apiKey.js
+
 # Logs
 logs
 *.log

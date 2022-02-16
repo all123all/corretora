@@ -1,6 +1,10 @@
+import { Flex, Text, Box, Button } from "@chakra-ui/react";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Footer(){
     return(
-        <div className="footer-main-container">
+        <Box className="footer-main-container">
             <div className="footer-contact-view">
                 <h2 className="footer-contact-view-title">Contact us</h2>
                 <p className="footer-contact-view-text">Tel: 1234-5678</p>
@@ -11,6 +15,6 @@ export default function Footer(){
                     
                 </div>
             </div>
-        </div>
+        </Box>
     )
 }

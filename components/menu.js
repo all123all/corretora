@@ -1,10 +1,12 @@
-import Image from "next/image";
 import companyLogo from '../public/home-solid.png';
 import { Input } from '@chakra-ui/react'
+import { Flex, Text, Box, Button } from "@chakra-ui/react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Menu(){
     return(
-        <div className="menu-main-container">
+        <Box className="menu-main-container">
             <div className="menu-logo-container">
                 {/* <Image src={companyLogo} className="menu-logo-img"/> */}
                 <a className="menu-logo-text" href="#home">DreamHome</a>
@@ -20,6 +22,6 @@ export default function Menu(){
                 <a className="menu-options-container-text" href="#home">Rental</a>
                 <a className="menu-options-container-text" href="#home">Contact</a>
             </div>
-        </div>
+        </Box>
     )
 }

@@ -128,3 +128,43 @@ p {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+/* Property Style */
+/* .property-main-container {
+
+} */
+.property-card {
+  flex-wrap: wrap;
+  width: 420px;
+  padding: 5px;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.property-card-content {
+  /* width: md; */
+  padding-top: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+.property-card-content-price {
+  align-items: center;
+}
+.property-card-content-price-text {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.property-card-agency-logo {
+  align-items: center;
+}
+.property-card-baths {
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.property-card-verified {
+  padding-right: 3px;
+}
+.property-card-bottom-description {
+  color: black;
+}
