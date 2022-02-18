@@ -11,11 +11,11 @@ export default function Menu(){
                 {/* <Image src={companyLogo} className="menu-logo-img"/> */}
                 <a className="menu-logo-text" href="#home">DreamHome</a>
             </div>
-            <div className="menu-search-container">
+            {/* <div className="menu-search-container">
                 <form>
                     <input placeholder="City name here..." className="menu-search-input"/>
                 </form>
-            </div>
+            </div> */}
             <div className="menu-options-container">
                 <a className="menu-options-container-text" href="#home">Home</a>
                 <a className="menu-options-container-text" href="#home">Sale</a>
